@@ -1,0 +1,207 @@
+/* body {
+    text-align: center;
+} */
+
+.w {
+    color: #2196F3;
+    font-size: 30px;
+}
+
+.e {
+    font-size: 30px;
+    margin: 24px 93px 0 0;
+
+}
+
+.qwerty {
+    /* margin: 24px 93px 0 215px; */
+    padding-top: 24px;
+    padding-left: 215px;
+}
+
+.link:hover {
+    color: #2196F3;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+} 
+
+.ul1 {
+    display: flex;
+    width: 900px;
+    list-style-type: none;
+}
+
+.contacts {
+    list-style-type: none;
+    display: flex;
+    /* margin-right: 10px; */
+    
+}
+
+.like {
+    margin: 24px 50px 25px 0;
+}
+
+.contacts_items {
+    margin: 24px 10px 0 0; 
+}
+
+.contacts_link {
+    text-decoration: none;
+    color: #212121;
+    margin-right: 50px;
+}
+
+.contacts_link:hover {
+    color: #2196F3;
+}
+
+.dec {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.section {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #2F303A;
+    color: white;
+    padding-top: 200px;
+}
+
+.btn {
+    color: white;
+    background-color: #2196F3;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 200px;
+    
+}
+
+.section_title {
+    margin-bottom: 30px;
+}
+
+.list_2 {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.list_item2 {
+    width: 270px;
+    margin: 94px 30px 94px 215px;
+}
+
+.list_item3 {
+    width: 270px;
+    margin: 94px 30px 94px 30px;
+}
+
+.list_item4 {
+    width: 270px;
+    margin: 94px 215px 94px 30px;
+}
+
+
+
+.pages {
+    list-style-type: none;
+    display: flex;
+    margin: 50px 30px 0 215px;
+}
+
+.pages1 {
+    margin-right: 30px;
+}
+
+.job {
+    
+    width: 1880px;
+    height: 448px;
+}
+
+.work {
+    
+    text-align: center;
+}
+
+.our_team {
+    text-align: center;
+    padding-top: 94px;
+}
+
+.workers {
+    height: 648px;
+    width: 1900px;
+    background-color: #F5F4FA;
+}
+
+
+
+.igor {
+    display: flex;
+}
+
+.mukola {
+    list-style-type: none;
+    margin: 50px 30px 94px 215px
+}
+
+.mukola_1 {
+    list-style-type: none;
+    margin: 50px 30px 94px 0
+}
+
+.mukola_2 {
+    list-style-type: none;
+    margin: 50px 215px 94px 0
+}
+
+.jon {
+    background-color: #ffff;
+}
+
+.finish {
+    color: #2196F3;
+    font-size: 30px;
+    margin: 60px 0 20px 215px;
+    padding-top: 60px;
+}
+
+.finish_2 {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.inform {
+    background-color: #2F303A;
+    width: 1880px;
+    height: 258px;
+
+}
+
+.gmail {
+    padding: 0 0 9px 215px;
+    list-style-type: none;
+}
+
+.gmail_2 {
+    list-style-type: none;
+    padding: 60px 0 20px 0;
+}
+
+.num {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 20px 0 60px 0
+}
