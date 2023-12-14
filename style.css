@@ -3,6 +3,7 @@
 } */
 
 .container {
+    /* outline: 2px solid grey; */
     width: 1170px;
     margin: 0 auto;
 }
@@ -54,6 +55,8 @@
     
 }
 
+
+
 .like {
     /* margin: 24px 50px 25px 0; */
     font-size: 14px;
@@ -90,11 +93,14 @@
 }
 
 .section {
+    
+    height: 600px;
+    /* width: 1600px; */
     text-transform: uppercase;
     text-align: center;
     background-color: #2F303A;
     color: white;
-    padding-top: 200px;
+    /* padding-top: 200px; */
 }
 
 .btn {
@@ -107,7 +113,15 @@
     
 }
 
+.info {
+    flex-wrap: wrap;
+    
+}
+
 .section_title {
+    font-size: 44px;
+    padding-top: 200px;
+    font-family: 'Roboto', sans-serif;
     /* margin-bottom: 30px; */
     /* margin-top: 200px; */
 }
@@ -129,6 +143,10 @@
     /* margin: 94px 30px 94px 30px; */
 }
 
+.why_us {
+    font-size: 14px;
+}
+
 .list_item4 {
     width: 270px;
     /* margin: 94px 215px 94px 30px; */
@@ -137,8 +155,10 @@
 
 
 .pages {
+    padding-left: 0;
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     /* margin: 50px 30px 0 215px; */
 }
 
@@ -147,25 +167,37 @@
 }
 
 .job {
-    
+    margin-bottom: 94px;
     /* width: 1880px; */
     /* height: 448px; */
     margin-top: 94px;
 }
 
 .work {
-    
+    font-size: 36px;
+    line-height: 42.19px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
+.abc {
+    color: #757575;
+    
+}
+
 .our_team {
+    font-size: 36px;
+    line-height: 42.19px;
+    padding-bottom: 50px;
     text-align: center;
-    /* padding-top: 94px; */
+    padding-top: 94px;
 }
 
 .workers {
     /* height: 648px;
     width: 1900px; */
+    margin-bottom: 0;
+    padding-bottom: 94px;
     background-color: #F5F4FA;
 }
 
@@ -173,10 +205,21 @@
 
 .igor {
     display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+}
+
+.misha {
+    color: #212121;
+    font-size: 16px;
+
 }
 
 .mukola {
     list-style-type: none;
+    
     /* margin: 50px 30px 94px 215px */
 }
 
@@ -191,6 +234,7 @@
 }
 
 .jon {
+    padding-bottom: 30px;
     background-color: #ffff;
 }
 
@@ -208,6 +252,7 @@
 
 .inform {
     background-color: #2F303A;
+    padding-top: 0;
     /* width: 1880px;
     height: 258px; */
 
@@ -216,6 +261,7 @@
 .gmail {
     /* padding: 0 0 9px 215px; */
     list-style-type: none;
+    padding-bottom: 9px;
 }
 
 .gmail_2 {
@@ -224,7 +270,13 @@
 }
 
 .num {
-    color: #FFFFFF;
+    color: #FFFFFF99;
+    text-decoration: none;
+    /* margin: 20px 0 60px 0 */
+}
+
+.num1 {
+    color: #ffffff;
     text-decoration: none;
     /* margin: 20px 0 60px 0 */
 }
@@ -232,4 +284,37 @@
 .problems_list {
     margin-top: 94px;
     margin-bottom: 94px;
+}
+
+.footer {
+    padding-left: 215px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.end {
+    color: #2196F3;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 175px;
+    font-size: 26px;
+}
+
+.end2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.foot {
+    height: 252px;
+}
+
+.ment {
+    
+    padding-top: 60px;
+}
+
+li {
+    list-style: none;
 }
