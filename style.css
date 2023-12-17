@@ -122,7 +122,9 @@
 }
 
 .info {
+    display: flex;
     flex-wrap: wrap;
+    text-align: left;
     
 }
 
@@ -152,6 +154,9 @@
 }
 
 .why_us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: ;
     font-size: 14px;
 }
 
