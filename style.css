@@ -104,7 +104,9 @@
     /* width: 1600px; */
     text-transform: uppercase;
     text-align: center;
-    background-color: #2F303A;
+    background: linear-gradient() url(photos/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     /* padding-top: 200px; */
 }
