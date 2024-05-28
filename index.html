@@ -30,29 +30,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <header class="header">
         <nav class="dec">
-          <div class="modal-btn-for-open" data-modal-open>
-
-
-
-            <div class="backdrop is-hidden" data-modal>
-              <div class="modal">
-                <button class="btn-close" data-modal-close>close</button>
-                <h3>Залиште свої дані, ми вам передзвонимо</h3>
-                <form action=""></form>
-              </div>
-            </div>
-
-
-
-            <b class="qwerty">
+          <b class="qwerty">
             <span class="w">Web</span><span class="e">Studio</span>
             </b>
-        </div>
           <ul class="ul1">
             <li class="like">
               <a class="link active" href="index.html">Студія</a>
@@ -60,7 +48,27 @@
             <li class="like">
               <a class="link" href="portfolio.html">Портфоліо</a>
             </li>
-            <li class="like"><a class="link" href="#">Контакти</a></li>
+
+            <li class="like"><button class="link like_modal" data-modal-open>Контакти</button></li>
+
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-close" data-modal-close>
+          <svg class="close_modal">
+          <use href="fotos_svg/close_modal.svg#close_modal"
+          ></use>
+        </svg>
+      </button>
+        <h4 class="give_us_ur_inform">Залиште свої дані, ми вам передзвонимо</h4>
+        <form action="#">
+          <label class="name"><input class="input_icon" type="text"><div class="div_for_svg_icon"><svg class="icon"><use href="fotos_svg/icon_2.svg#icon_2"></use></svg></div></label>
+          <!-- fotos_svg/icon_2.svg#icon_2 -->
+        </form>
+      </div>
+    </div>
+
+
           </ul>
         </nav>
         <ul class="contacts">
@@ -497,5 +505,6 @@
         </div>
       </section>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
