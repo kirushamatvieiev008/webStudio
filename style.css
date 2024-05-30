@@ -1023,10 +1023,74 @@ li {
     border-radius: 4px;
     width: 200px;
     height: 50px;
-    position: absolute;
-    bottom: 40px;
+    margin-top: 30px;
     margin-left: 50%;
     transform: translateX(-50%);
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.send_modal:visited {
+    background-color: #1c7cca;
+}
+
+.subscribe {
+    margin-top: 72px;
+    font-size: 18px;
+    padding-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    
+
+}
+
+.send {
+    width: 24px;
+    height: 24px;
+}
+
+.third_li_in_footer {
+    padding-left: 93px;
+}
+
+.subscribe_btn {
+    color: #fff;
+    background-color: #2196F3;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px #000;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 38.5px;
+    gap: 10px;
+}
+
+.e-mail_footer {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #2F303A;
+    border: none;
+    outline: solid 1px #ffffff54;
+    margin-right: 12px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.e-mail_footer::placeholder {
+    color: #ffffff98;
+}
+
+.the_lust_label {
+    display: flex;
 }
