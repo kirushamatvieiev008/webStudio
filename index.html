@@ -33,6 +33,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -49,24 +52,36 @@
               <a class="link" href="portfolio.html">Портфоліо</a>
             </li>
 
-            <li class="like"><button class="link like_modal" data-modal-open>Контакти</button></li>
+            <li class="like"><button class="link like_modal" data-modal-open>Контакти</button><div class="backdrop is-hidden" data-modal>
+              <div class="modal">
+                <button class="btn-close" data-modal-close>
+                  <svg class="close_modal">
+                  <use href="fotos_svg/close_modal.svg#close_modal"
+                  ></use>
+                </svg>
+              </button>
+                <h4 class="give_us_ur_inform">Залиште свої дані, ми вам передзвонимо</h4>
+                <form class="form_modal" action="#">
+                  <div class="name_div">
+                  <p class="name_p">Ім'я</p></div>
+                  <label class="name"><input class="input_icon" type="text"><div class="div_for_svg_icon"><svg class="icon"><use href="fotos_svg/icon_2.svg#icon_2"></use></svg></div></label>
+                  <!-- fotos_svg/icon_2.svg#icon_2 -->
+                  <!-- phone_modal.svg -->
+                  <div class="name_div">
+                    <p class="name_p">Телефон</p></div>
+                  <label class="name"><input class="input_icon" type="text"><div class="div_for_svg_icon"><svg class="icon"><use href="fotos_svg/phone_modal.svg#phone_modal"></use></svg></div></label>
+                  <div class="name_div">
+                    <p class="name_p">Пошта</p></div>
+                  <label class="name"><input class="input_icon" type="text"><div class="div_for_svg_icon"><svg class="icon"><use href="fotos_svg/gmail_modal.svg#gmail_modal"></use></svg></div></label>
+                  <div class="name_div">
+                    <p class="name_p">Коментар</p></div>
+                  <textarea class="enter_text" name="text" id="#" placeholder="Введіть текст"></textarea>
+                  <label class="name_checkbox"><input class="input_checkbox" type="checkbox"><div class="agree_checkbox">Погоджуюся з розсилкою та приймаю <a class="link_modal" href="#">Умови договору</a></div></label>
+                </form>
+                <button type="submit" class="send_modal">Відправити</button>
+              </div>
+            </div></li>
 
-
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="btn-close" data-modal-close>
-          <svg class="close_modal">
-          <use href="fotos_svg/close_modal.svg#close_modal"
-          ></use>
-        </svg>
-      </button>
-        <h4 class="give_us_ur_inform">Залиште свої дані, ми вам передзвонимо</h4>
-        <form action="#">
-          <label class="name"><input class="input_icon" type="text"><div class="div_for_svg_icon"><svg class="icon"><use href="fotos_svg/icon_2.svg#icon_2"></use></svg></div></label>
-          <!-- fotos_svg/icon_2.svg#icon_2 -->
-        </form>
-      </div>
-    </div>
 
 
           </ul>
