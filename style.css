@@ -1,6 +1,4 @@
-/* body {
-    text-align: center;
-} */
+
 
 .container {
     /* outline: 2px solid grey; */
@@ -663,17 +661,17 @@ li {
     margin-bottom: 30px;
     display: inline;
     outline: 1px solid #EEEEEE;
+    position: relative;
+    cursor: pointer;
+}
+
+.try_for_relative {
+    position: relative;
+    
 }
 
 .dh_photos:hover {
     box-shadow: 3px 5px 4px #EEEEEE;
-}
-
-.dh_photos1 {
-    margin-bottom: 94px;
-    padding-bottom: 20px;
-    display: inline;
-    outline: 1px solid #EEEEEE;
 }
 
 .description {
@@ -1093,4 +1091,38 @@ li {
 
 .the_lust_label {
     display: flex;
+}
+
+.hover_show {
+    position: absolute;
+    background-color: #2196F3;
+    opacity: 0.9;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 88px;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 3%;
+}
+
+.dh_photos:hover .hover_show {
+    position: absolute;
+    top: 0;
+    display: block;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+
+.text_inside_hover_show {
+    margin-top: 63px;
+    margin-left: 24px;
+}
+
+body {
+    position: relative;
 }
