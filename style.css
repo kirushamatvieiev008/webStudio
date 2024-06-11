@@ -661,7 +661,7 @@ li {
     margin-bottom: 30px;
     display: inline;
     outline: 1px solid #EEEEEE;
-    position: relative;
+    /* position: relative; */
     cursor: pointer;
 }
 
@@ -1124,5 +1124,18 @@ li {
 }
 
 body {
-    position: relative;
+    /* position: relative; */
+}
+
+.try_footer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.btn_none {
+    display: none !important;
+    opacity: 0;
+    
 }
