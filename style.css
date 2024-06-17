@@ -1071,6 +1071,11 @@ li {
     align-content: center;
     padding-left: 38.5px;
     gap: 10px;
+    cursor: pointer;
+}
+
+.subscribe_btn:hover {
+    background-color: #1b76c0;
 }
 
 .e-mail_footer {
@@ -1138,4 +1143,8 @@ body {
     display: none !important;
     opacity: 0;
     
+}
+
+.form_footer {
+    display: flex;
 }

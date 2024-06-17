@@ -68,7 +68,7 @@
             </li>
 
             <li class="like">
-              <a href="contacts.html" class="link like_modal" data-modal-open>Контакти</a>
+              <button class="link like_modal" data-modal-open>Контакти</button>
               <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                   <button class="btn-close" data-modal-close>
@@ -85,10 +85,10 @@
                     </div>
                     <label class="name"
                       ><input class="input_icon" type="text" />
-                      <div class="div_for_svg_icon">
+                      <span class="div_for_svg_icon">
                         <svg class="icon">
                           <use href="fotos_svg/icon_2.svg#icon_2"></use>
-                        </svg></div
+                        </svg></span
                     ></label>
                     <!-- fotos_svg/icon_2.svg#icon_2 -->
                     <!-- phone_modal.svg -->
@@ -97,24 +97,24 @@
                     </div>
                     <label class="name"
                       ><input class="input_icon" type="text" />
-                      <div class="div_for_svg_icon">
+                      <span class="div_for_svg_icon">
                         <svg class="icon">
                           <use
                             href="fotos_svg/phone_modal.svg#phone_modal"
                           ></use>
-                        </svg></div
+                        </svg></span
                     ></label>
                     <div class="name_div">
                       <p class="name_p">Пошта</p>
                     </div>
                     <label class="name"
                       ><input class="input_icon" type="text" />
-                      <div class="div_for_svg_icon">
+                      <span class="div_for_svg_icon">
                         <svg class="icon">
                           <use
                             href="fotos_svg/gmail_modal.svg#gmail_modal"
                           ></use>
-                        </svg></div
+                        </svg></span
                     ></label>
                     <div class="name_div">
                       <p class="name_p">Коментар</p>
@@ -127,10 +127,10 @@
                     ></textarea>
                     <label class="name_checkbox"
                       ><input class="input_checkbox" type="checkbox" />
-                      <div class="agree_checkbox">
+                      <span class="agree_checkbox">
                         Погоджуюся з розсилкою та приймаю
                         <a class="link_modal" href="#">Умови договору</a>
-                      </div></label
+                      </span></label
                     >
                     <button type="submit" class="send_modal">Відправити</button>
                   </form>
@@ -566,17 +566,18 @@
               </ul>
             </li>
             <li class="third_li_in_footer">
-              <form action="#">
-                <p class="subscribe">Підпишіться на розсилку</p>
-                <label for="#" class="the_lust_label"
-                  ><input
+              <p class="subscribe">Підпишіться на розсилку</p>
+              <form class="form_footer" action="#">
+                <label for="e_mail_footer" class="the_lust_label" 
+                  ><input id="e_mail_footer"
                     class="e-mail_footer"
                     placeholder="E-mail"
-                    type="email" /><button class="subscribe_btn" type="submit">
-                    Підписатися<svg class="send">
-                      <use href="fotos_svg/send_footer.svg#send_footer"></use>
-                    </svg></button
-                ></label>
+                    type="email" />
+                  </label>
+                  <button class="subscribe_btn" type="submit">
+                  Підписатися<svg class="send">
+                    <use href="fotos_svg/send_footer.svg#send_footer"></use>
+                  </svg></button>
               </form>
             </li>
           </ul>
