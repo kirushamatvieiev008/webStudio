@@ -661,14 +661,14 @@ li {
     margin-bottom: 30px;
     display: inline;
     outline: 1px solid #EEEEEE;
-    /* position: relative; */
+    position: relative;
     cursor: pointer;
 }
 
-.try_for_relative {
+/* .try_for_relative {
     position: relative;
     
-}
+} */
 
 .dh_photos:hover {
     box-shadow: 3px 5px 4px #EEEEEE;
